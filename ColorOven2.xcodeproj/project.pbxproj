@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7419722AA92E4F00502E23 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7419712AA92E4F00502E23 /* CustomTableViewCell.swift */; };
+		4B7419772AA934F600502E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7419762AA934F600502E23 /* ViewController.swift */; };
+		4B7419792AA935C300502E23 /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7419782AA935C300502E23 /* ViewController+Extensions.swift */; };
+		4B74197B2AA9361500502E23 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74197A2AA9361500502E23 /* UIColor+Hex.swift */; };
 		4BC98C712AA6C58E00B7F96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC98C702AA6C58E00B7F96A /* AppDelegate.swift */; };
 		4BC98C732AA6C58E00B7F96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC98C722AA6C58E00B7F96A /* SceneDelegate.swift */; };
-		4BC98C752AA6C58E00B7F96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC98C742AA6C58E00B7F96A /* ViewController.swift */; };
 		4BC98C782AA6C58E00B7F96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC98C762AA6C58E00B7F96A /* Main.storyboard */; };
 		4BC98C7A2AA6C59000B7F96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC98C792AA6C59000B7F96A /* Assets.xcassets */; };
 		4BC98C7D2AA6C59000B7F96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC98C7B2AA6C59000B7F96A /* LaunchScreen.storyboard */; };
+		4BC98C892AA6C62900B7F96A /* ColorOvenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC98C882AA6C62900B7F96A /* ColorOvenAPI.swift */; };
+		4BC98C8B2AA6C66700B7F96A /* ColorOvenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC98C8A2AA6C66700B7F96A /* ColorOvenViewModel.swift */; };
+		4BFCC9BF2AAE80F100FDD9B7 /* ColorResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCC9BE2AAE80F100FDD9B7 /* ColorResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B7419712AA92E4F00502E23 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4B7419762AA934F600502E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B7419782AA935C300502E23 /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		4B74197A2AA9361500502E23 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		4BC98C6D2AA6C58E00B7F96A /* ColorOven2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorOven2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC98C702AA6C58E00B7F96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC98C722AA6C58E00B7F96A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BC98C742AA6C58E00B7F96A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BC98C772AA6C58E00B7F96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BC98C792AA6C59000B7F96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC98C7C2AA6C59000B7F96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BC98C7E2AA6C59000B7F96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC98C882AA6C62900B7F96A /* ColorOvenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOvenAPI.swift; sourceTree = "<group>"; };
+		4BC98C8A2AA6C66700B7F96A /* ColorOvenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOvenViewModel.swift; sourceTree = "<group>"; };
+		4BFCC9BE2AAE80F100FDD9B7 /* ColorResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7419732AA9343300502E23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B7419762AA934F600502E23 /* ViewController.swift */,
+				4BFCC9BE2AAE80F100FDD9B7 /* ColorResultsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B7419742AA9345300502E23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B7419782AA935C300502E23 /* ViewController+Extensions.swift */,
+				4B74197A2AA9361500502E23 /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4B7419752AA9345E00502E23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B7419712AA92E4F00502E23 /* CustomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B74197C2AA938F400502E23 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4BC98C8A2AA6C66700B7F96A /* ColorOvenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4B74197D2AA9392C00502E23 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4BC98C882AA6C62900B7F96A /* ColorOvenAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4B74197E2AA9394D00502E23 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4BC98C702AA6C58E00B7F96A /* AppDelegate.swift */,
+				4BC98C722AA6C58E00B7F96A /* SceneDelegate.swift */,
+				4BC98C762AA6C58E00B7F96A /* Main.storyboard */,
+				4BC98C792AA6C59000B7F96A /* Assets.xcassets */,
+				4BC98C7B2AA6C59000B7F96A /* LaunchScreen.storyboard */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		4BC98C642AA6C58E00B7F96A = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +122,13 @@
 		4BC98C6F2AA6C58E00B7F96A /* ColorOven2 */ = {
 			isa = PBXGroup;
 			children = (
-				4BC98C702AA6C58E00B7F96A /* AppDelegate.swift */,
-				4BC98C722AA6C58E00B7F96A /* SceneDelegate.swift */,
-				4BC98C742AA6C58E00B7F96A /* ViewController.swift */,
-				4BC98C762AA6C58E00B7F96A /* Main.storyboard */,
-				4BC98C792AA6C59000B7F96A /* Assets.xcassets */,
-				4BC98C7B2AA6C59000B7F96A /* LaunchScreen.storyboard */,
 				4BC98C7E2AA6C59000B7F96A /* Info.plist */,
+				4B74197E2AA9394D00502E23 /* Utilities */,
+				4B74197D2AA9392C00502E23 /* Services */,
+				4B74197C2AA938F400502E23 /* ViewModels */,
+				4B7419732AA9343300502E23 /* Controllers */,
+				4B7419742AA9345300502E23 /* Extensions */,
+				4B7419752AA9345E00502E23 /* Views */,
 			);
 			path = ColorOven2;
 			sourceTree = "<group>";
@@ -138,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC98C752AA6C58E00B7F96A /* ViewController.swift in Sources */,
 				4BC98C712AA6C58E00B7F96A /* AppDelegate.swift in Sources */,
+				4BFCC9BF2AAE80F100FDD9B7 /* ColorResultsViewController.swift in Sources */,
+				4B7419722AA92E4F00502E23 /* CustomTableViewCell.swift in Sources */,
+				4B7419792AA935C300502E23 /* ViewController+Extensions.swift in Sources */,
+				4BC98C892AA6C62900B7F96A /* ColorOvenAPI.swift in Sources */,
+				4BC98C8B2AA6C66700B7F96A /* ColorOvenViewModel.swift in Sources */,
+				4B7419772AA934F600502E23 /* ViewController.swift in Sources */,
 				4BC98C732AA6C58E00B7F96A /* SceneDelegate.swift in Sources */,
+				4B74197B2AA9361500502E23 /* UIColor+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
